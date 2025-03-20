@@ -30,7 +30,7 @@ const Home = () => {
   });
   const [isLoading, setIsLoading] = useState(false);
   const [childClicked, setChildClicked] = useState(null);
-  const [value, setValue] = useState('restaurants');
+  const [value, setValue] = useState('Dispensaries');
   const [rating, setRating] = useState('');
 
   useEffect(() => {
